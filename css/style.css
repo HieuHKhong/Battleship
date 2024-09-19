@@ -14,10 +14,10 @@ body{
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
     font-style: normal;
-     font-size: 40px;
-        background: -webkit-linear-gradient(#ff6f00, #763bff);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#ff6f00, #763bff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .grid-container {
@@ -44,4 +44,20 @@ body{
 
 .game {
     margin-bottom: 5%;
+}
+
+.Menu {
+    margin-bottom: 10%;
+}
+
+.Menu button{
+    border: none;
+    color: white;
+    background-color: #763bff;
+    border-radius: 5%;
+    padding: 1% 1% 1% 1%;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: black -1px 1px 1px 1px;
+    
 }

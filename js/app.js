@@ -7,13 +7,16 @@ let random = Math.floor(Math.random(0) * gridbox.length);
 
 for (let i = 0; i < gridbox.length; i++){
 
-    if(gridbox[random].addEventListener("click", function (){
-        this.style.backgroundColor = 'green'
+    if(gridbox[i].addEventListener("click", function miss(){
+        this.style.backgroundColor = 'red';
     })){
-    }else
-        gridbox[i].addEventListener("click", function (){
-            this.style.backgroundColor = 'red';
+
+    }else{
+        gridbox[random].addEventListener("click", function win(){
+            this.style.backgroundColor = 'green'
         })
+    }
+        
 }
 
 gridbox[random].addEventListener("click", function (){
@@ -22,7 +25,5 @@ gridbox[random].addEventListener("click", function (){
 
 newgame.addEventListener("click", function newgame(){
     location.reload();
-
 })
-
 
